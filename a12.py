@@ -9,4 +9,4 @@ db = {
 
 while True:
     t = input("Input: ")
-    print(db.get(int(t), "None"))
+    print(db.get(int(t), "Nicht Vorhanden"))
