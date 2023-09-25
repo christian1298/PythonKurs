@@ -1,5 +1,6 @@
 a = 12
 b = 4
-txt = "a/dez=%d, b/dez=%d, a/hex=0x%x"
-
-print(str.format(txt % (a,b,a)))
+txt = "a/dez={}, b/dez={}, a/hex=0x{:X}".format(a,b,a)
+print(txt)
+txt2 = f"a/dez={a:d}, b/dez={b:d}, a/hex=0x{a:X}"
+print(txt2)
