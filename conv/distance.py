@@ -1,7 +1,14 @@
+"""
+Modul zum Umwandeln von Längen zwischen Meter und
+Zoll
+
+"""
 def meter2inch(val):
+    """Rechne Meter in Zoll um"""
     return val * 39.37
 
 def inch2meter(val):
+    """Rechne Zoll in Meter um"""
     return val / 39.37
 
 
