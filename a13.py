@@ -17,10 +17,8 @@ def my_or(a,b):
 # print(my_or(my_and(False, "Eva"), "Adam"))
 
 def my_and2(a,b):
-    if a:
-        if b: return b
-        else: return False
-    return False
+    if a: return b
+    return a
 
 def my_or2(a,b):
     if a: return a
