@@ -6,7 +6,7 @@ r = []
 for i in l:
     i = i.split(":")
     try:
-        i[4] = i[4].split("\n")[0]
+        i[4] = i[4].replace("\n", "")
     except IndexError:
         exit()  
     r.append(Rect(int(i[0]), int(i[1]), int(i[2]), int(i[3]), i[4]))
