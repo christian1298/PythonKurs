@@ -1,6 +1,3 @@
-
-# temperature.py
-
 """
 Modul zum Umwandeln von Temperaturen zwischen Celsius, Kelvin und
 Fahrenheit
@@ -36,5 +33,3 @@ if __name__ == "__main__":
     print(theta, T, theta_p)
     print(theta, F, F_p)
     if theta != theta_p: print("=> Differenz gefunden")
-
-    
