@@ -1,8 +1,13 @@
 import itertools
+
 class MyWidget:
-    __ID = itertools.count()
+    __ID = 0
+    #__ID = itertools.count()
     def __init__(self,x,y,w,h):
-        self.id = next(self.__ID)
+        #self.id = next(self.__ID)
+        self.id = MyWidget.__ID
+        MyWidget.__ID +=1
+        
         self.x = x
         self.y = y
         self.w = w

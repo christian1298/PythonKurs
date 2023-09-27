@@ -14,4 +14,5 @@ class MyButton (MyLabel):
         self.callback(self, x, y)
 
     def __str__(self):
-        return f"MyButton with txt={self.text} , id={self.id} at rect x={self.x} , y={self.y}, w={self.w},h={self.h}"
+        return f"MyButton with txt={self.text} , {super(MyLabel, self).__str__()}"
+        #return f"MyButton with txt={self.text} , id={self.id} at rect x={self.x} , y={self.y}, w={self.w},h={self.h}"
