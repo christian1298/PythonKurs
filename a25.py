@@ -1,4 +1,4 @@
-from a25c.myLabel import MyLabel
+from myGUI.myLabel import MyLabel
 
 l = MyLabel("End Program", 0, 0, 30, 10)
 print("Identify l")

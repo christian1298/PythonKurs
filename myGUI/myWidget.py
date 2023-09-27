@@ -9,7 +9,7 @@ class MyWidget:
         self.h = h
 
     def draw(self, ctx):
-        print("draw")
+        pass
 
     def handle_mouse(self, x, y):
         pass

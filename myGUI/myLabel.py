@@ -1,4 +1,4 @@
-from a25c.myWidget import MyWidget
+from myGUI.myWidget import MyWidget
 
 class MyLabel (MyWidget):
     def __init__(self, text, x,y,w,h):
