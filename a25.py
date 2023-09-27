@@ -1,4 +1,4 @@
-from pseudo_gui_p.myLabel import MyLabel
+from myGUI.myLabel import MyLabel
 
 l = MyLabel("End Program", 0, 0, 30, 10)
 print("Identify l")
