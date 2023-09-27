@@ -15,3 +15,11 @@ tx = 60
 ty = 32
 for i in r:
     i.contains(tx, ty)
+
+desc = input("Eingabe: ")
+for i in r:
+    if(i.name == desc):
+        print(i.x,i.y,i.w,i.h)
+        break
+else:
+    print("Not in dataset")
