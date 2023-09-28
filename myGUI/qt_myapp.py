@@ -30,9 +30,10 @@ class MyAppWindow(QWidget):
 
     def mousePressEvent(self, ev):
         pos=ev.position()
+        #print(pos)
         x,y = int(pos.x()), int(pos.y())
-        # your code here
-        ...
+        for i in self.widgets:
+            i.handle_mouse(x,y)
 
     def add_widget(self, w):
         self.widgets.append(w)
