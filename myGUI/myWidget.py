@@ -1,4 +1,3 @@
-import itertools
 
 class MyWidget:
     __ID = 0
@@ -6,7 +5,7 @@ class MyWidget:
     def __init__(self,x,y,w,h):
         #self.id = next(self.__ID)
         self.id = MyWidget.__ID
-        MyWidget.__ID +=1
+        MyWidget.__ID += 1
         
         self.x = x
         self.y = y
